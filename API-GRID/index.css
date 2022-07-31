@@ -1,0 +1,87 @@
+
+
+.auto-grid {
+    --auto-grid-min-size: 16rem;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 40%));
+    grid-gap: 1rem;
+    margin-left: 20%;
+  }
+  
+  
+  
+  body {
+    background-image:url('https://r4.wallpaperflare.com/wallpaper/946/379/721/artwork-landscape-mountains-forest-wallpaper-68654a8247389c8696ef6b66280031c9.jpg?timestamp=1659292047219');
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .myContainer {
+    padding: 30% 30%;
+    text-align: center;
+    font-size: 1rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border:1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.17);
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  .img-thumb{
+    padding: 10% 10%;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 8rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  .btn-website {
+    padding: 5%;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    color: rgba(7, 7, 7, 0.732);
+    font-weight: 600;
+    background-color:rgba(252, 252, 252, 0.452);
+    background-image: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    height: 3rem;
+    width: 7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    margin-top: 10%;
+  }
+
+
+
+  select{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    border: 0px;
+    border-radius:2vh;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    background-color: #ffffff31;
+    color: black;
+    width: 15%;
+    height: 4vh;
+    text-align: center;
+    outline: none;
+
+  }
